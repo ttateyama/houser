@@ -1,0 +1,73 @@
+.Dashboard {
+  max-width: 850px;
+  margin: 0 auto;
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.Dashboard-button-add {
+  background: #8AEA92;
+  border: none;
+  color: black;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.Dashboard-button-add:hover {
+  background: #7ED585;
+}
+.Dashboard-button-add:active {
+  background: #71C078;
+}
+.Dashboard-filter {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.Dashboard-filter-input {
+  width: 75px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.Dashboard-filter-button {
+  width: 75px;
+  height: 37px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.Dashboard-divider {
+  border-top: 1px solid #8c8b8b;
+  width: 800px;
+  margin: 30px 0 20px 0;
+}
+
+.Dashboard-listings {
+  width: 800px;  
+}
+
+.Dashboard-listings-header {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+}

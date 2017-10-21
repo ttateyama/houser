@@ -1,0 +1,50 @@
+.Header {
+    background: #519872;
+    font-family: OpenSans-Regular;
+}
+
+.span-bold {
+    font-family: OpenSans-Bold;
+}
+
+.Header-content {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    max-width: 850px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.Header-content-left {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.Header-content-right {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+.Header-logout {
+    padding: 10px 20px 10px 20px;
+}
+
+.Header-logout:hover {
+    background: #3b5249;
+    border-radius: 5px;
+}
+
+.Header-logo {
+    width: 35px;
+    height: 28px;
+    margin-right: 15px;
+}
+
+.Header a {
+    text-decoration: none;
+}

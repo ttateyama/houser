@@ -1,0 +1,106 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    margin: 0 auto;
+    background: white;
+    height: 100vh;
+}
+
+.Login-image {
+    align-self: center;
+    width: 165px;
+    height: 190px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.Login-input {
+    font-size: 17px;
+}
+
+.Login-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login-input {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.Login-text {
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: OpenSans-Bold;
+}
+
+.Login-password-text {
+    margin-top: 15px;
+}
+
+textarea,
+input,
+input[type],
+.uneditable-input {
+    border-style: solid;
+    border-color: lightgray;
+    outline: 0 none;
+    padding: 4px;
+    border-width: 2px;
+}
+textarea:focus,
+input:focus,
+input[type]:focus,
+.uneditable-input:focus {
+    border-color: #519872;
+    border-width: 2px;
+}
+
+.Login-buttons {
+    display: flex;
+}
+
+.Login-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-button {
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: OpenSans-Regular;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-1 {
+    background: #8AEA92;
+    border: none;
+    color: black;
+}
+.button-1:hover {
+    background: #7ED585;
+}
+.button-1:active {
+    background: #71C078;
+}
+
+.button-2 {
+    background: #5E706A;
+    border: none;
+    color: white;
+}
+.button-2:hover {
+    background: #4C6059;
+}
+.button-2:active {
+    background: #3B5149;
+}
