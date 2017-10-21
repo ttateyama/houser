@@ -17,7 +17,7 @@ class Dashboard extends Component {
         <div className='Dashboard'>
           <Link to='/addproperty/1' className='Dashboard-button-add'>Add New Property</Link>
           <div className='Dashboard-filter'>
-            <div>List properties with "disired rent" greater than: $ </div>
+            <div>List properties with "desired rent" greater than: $ </div>
             <input className='Dashboard-filter-input' id="amount" placeholder={0} type='number'/>
             <button className='Dashboard-filter-button button-1'>Filter</button>
             <button className='Dashboard-filter-button button-2'>Reset</button>
